@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+class ATMStatus(Enum):
+    IDLE = "IDLE"
+    CARD_INSERTED = "CARD_INSERTED"
+    AUTHENTICATED = "AUTHENTICATED"
+    DISPENSE_CASH = "DISPENSE_CASH"
